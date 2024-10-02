@@ -401,6 +401,13 @@ export default function Login(props: PageProps) {
                   >
                     <Box
                       sx={{
+                        padding: '20px',
+                      }}
+                    >
+                      <h1>Hello World from the Build</h1>
+                    </Box>
+                    <Box
+                      sx={{
                         mb: '20px',
                         display: 'flex',
                         flexDirection: isMobile ? 'column' : 'row',
